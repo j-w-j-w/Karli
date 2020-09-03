@@ -2,7 +2,6 @@
 
 import React, { Dispatch, useState } from "react";
 import ChatBot from "react-simple-chatbot";
-import { MessageArgs } from "./chatbot-types";
 import { useDispatch } from "react-redux";
 import { ChatBotAction } from "./state/action";
 import { ThemeProvider } from "styled-components";
